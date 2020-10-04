@@ -56,8 +56,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         //Calculate tip and total
         let tip = bill * tipPercentage
         let total = bill + tip
-        // this is a test to see git changes
-        //test 2
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLable.text = String(format: "$%.2f", total)
     }
